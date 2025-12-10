@@ -53,6 +53,25 @@ Thumbs.db
 # logs
 logs
 runs
+# ---------- Python virtual env ----------
+.venv/
+venv/
+env/
+
+# ---------- RL training artifacts ----------
+# 模型权重 / checkpoint
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.npz
+
+# 常见输出目录（如果你后面用到）
+checkpoints/
+output/
+outputs/
+results/
+experiments/
 
 # other
 *.egg-info
